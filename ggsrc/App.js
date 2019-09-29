@@ -1,6 +1,6 @@
 /**
  * Sample React Native App
- * https://github.com/facebook/react-native
+ * https://github./Appfacebook/react-native
  *
  * @format
  * @flow
@@ -21,9 +21,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <Text style={styles.welcome}>我是更新后后后后</Text>
       </View>
     );
   }

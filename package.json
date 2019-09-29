@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "baseBundle": "node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --dev false --entry-file base.js --bundle-output ./ios/base.ios.bundle --assets-dest ./ios/ --config /Users/wangliguang/Desktop/github/react_native_releaseHotReload/base.config.js",
+    "indexBundle": "node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --dev false --entry-file ggsrc/index.js --bundle-output ./ios/index.ios.bundle --assets-dest ./ios/ --config /Users/wangliguang/Desktop/github/react_native_releaseHotReload/index.config.js",
+    "indexUpdateBundle": "node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --dev false --entry-file ggsrc/index.js --bundle-output ./ios/indexUpdate.ios.bundle --assets-dest ./ios/ --config /Users/wangliguang/Desktop/github/react_native_releaseHotReload/index.config.js"
   },
   "dependencies": {
     "react": "16.8.3",
