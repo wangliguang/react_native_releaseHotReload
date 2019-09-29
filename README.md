@@ -24,7 +24,7 @@ iOS
 
 android
 
-> 尚未研究
+> 参考[React native拆包之 原生加载多bundle（iOS&Android）](https://blog.csdn.net/tyro_smallnew/article/details/83660345)
 
 ## 脚本
 
